@@ -46,7 +46,7 @@
      <p id="halo" class="halo">Sekian ✨</p>
      
      <div><blockquote id='bq' data-text='&#9829;'>
-       <p id="kalimat">Yeaayy! Akhirnya kita jalan 🤣</p>
+       <p id="kalimat">Yeaayy! Akhirnya kita ngopi berdua 🤣</p>
        <p id="kalimatb">Balas pesan ke WhatsApp aku ya! 👉🏻👈🏻</p>
      </blockquote></div>
 
@@ -84,7 +84,7 @@
   cancelButtonText: '' + iniwarna2,
 });
 if(warna){
-    await swals.fire({title: 'Yeayy!', text: 'Kalo kamu pilih ' + iniwarna1 + ' berarti besok kita jalan ya 🤣!', imageUrl: '' + fotostiker4.src,});
+    await swals.fire({title: 'Yeayy!', text: 'Kalo kamu pilih ' + iniwarna1 + ' berarti besok kita ngopi berdua ya 🤣!', imageUrl: '' + fotostiker4.src,});
     var { isConfirmed: warna2 } = await swals.fire({
     title: nama + ' yakin pilih warna ' + iniwarna1 + '?', 
     text: 'Atau mau ganti warna aja nih?', 
@@ -97,12 +97,12 @@ if(warna2){
     await swals.fire({title: 'Oke!', text: 'Sekarang lihat ini ya 😄❤️', imageUrl: '' + fotostiker6.src,});
     mulainama();
   } else {
-    await swals.fire({title: 'Oke, memilih ' + iniwarna2 + '!', text: 'Sama aja sih sebenernya, tapi jalannya harus lebih lama ya 😜', imageUrl: '' + fotostiker7.src,});
+    await swals.fire({title: 'Oke, memilih ' + iniwarna2 + '!', text: 'Sama aja sih sebenernya,tapi abis ngopi itu jalan jalan kita hehe 😜 ', imageUrl: '' + fotostiker7.src,});
     mulainama();
 }
 //Selingan
   } else {
-    await swals.fire({title: 'Yeayy!', text: 'Kalo kamu pilih ' + iniwarna2 + ' berarti besok kita jalan ya 🤣!', imageUrl: '' + fotostiker4.src,});
+    await swals.fire({title: 'Yeayy!', text: 'Kalo kamu pilih ' + iniwarna2 + ' berarti besok kita ngopi berdua ya 🤣! ', imageUrl: '' + fotostiker4.src,});
     var { isConfirmed: warna2 } = await swals.fire({
     title: nama + ' yakin pilih warna ' + iniwarna2 + '?',  
     text: 'Atau mau ganti warna aja nih?', 
@@ -112,7 +112,7 @@ if(warna2){
     cancelButtonText: 'Yakin',
 });
 if(warna2){    
-    await swals.fire({title: 'Oke, memilih ' + iniwarna1 + '!', text: 'Sama aja sih sebenernya, tapi jalannya harus lebih lama ya 😜', imageUrl: '' + fotostiker7.src,});
+    await swals.fire({title: 'Oke, memilih ' + iniwarna1 + '!', text: ' Sama aja sih sebenernya,tapi abis ngopi itu jalan jalan kita hehe 😜 ', imageUrl: '' + fotostiker7.src,});
     mulainama();
   } else {
     await swals.fire({title: 'Oke!', text: 'Sekarang lihat ini ya 😄❤️', imageUrl: '' + fotostiker6.src,});
